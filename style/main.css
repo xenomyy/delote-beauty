@@ -40,9 +40,14 @@ nav{
 nav a{
     color: white;
     text-decoration: none;
+    border-bottom: solid 1px #cdaa7d00;
 }
 .logo{
     margin: 0 40px;
+}
+.instagram, .logo{
+    border: none;
+    color: red;
 }
 #menu{
     display: none;
@@ -91,4 +96,8 @@ hr{
 .menu ul li:first-child{
     font-weight: 700;
     margin-bottom: 10px;
+}
+nav a:hover{
+    color: #CDAA7D;
+    border-bottom: solid 1px #CDAA7D;
 }
