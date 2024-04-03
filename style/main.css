@@ -44,7 +44,7 @@ nav{
 nav a{
     color: white;
     text-decoration: none;
-    border:#cdaa7d;
+    border-bottom:#cdaa7d00;
 }
 .logo{
     margin: 0 40px;
@@ -188,4 +188,75 @@ blockquote::before{
     position: absolute;
     transform: translate(20px,-20px);
     z-index: -1;
+}
+#works{
+    width: 1280px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 60px;
+    margin-bottom: 100px;
+}
+#works h2{
+    font-size: 48px;
+    font-weight: 700;
+    color: white;
+
+}
+#works a{
+    font-size: 24px;
+}
+.works{
+    display: flex;
+    gap: 16px;
+    flex-wrap: wrap;
+}
+.works img{
+    width: 416px;
+    height: 416px;
+    object-fit: cover;
+    transition: transform .1s linear;
+}
+.works img:hover{
+    transform: scale(1.2);
+    border-radius: 10px;
+    filter: drop-shadow(0 0 50px black);
+}
+footer{
+    width: 1280px;
+    margin: 0px auto;
+    display: flex;
+    flex-direction: column;
+}
+.footer{
+    display: flex;
+    justify-content: space-between;
+    margin: 80px 0;
+    color: white;
+}
+.copy{
+    margin: 30px 0;
+    text-align: center;
+    color: #FFFFFF80;
+}
+.foot-item{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+.foot-item h2{
+    margin-bottom: 10px;
+}
+.foot-item p{
+    font-size: 18px;
+    color: #FFFFFF80;
+}
+.foot-item a{
+    font-size: 18px;
+    color: #FFFFFF80;
+    text-decoration: none;
+}
+.foot-item a:hover{
+    text-decoration: underline;
 }
